@@ -5,5 +5,6 @@ process.env.PWD = process.cwd();
 
 
 app.use(express.static(process.env.PWD + '/public'));
-app.listen(3000);
-console.log('Listening on port 3000');
+var port = process.env.PORT || 8000
+app.listen(8000);
+console.log('Listening on port 8000');
