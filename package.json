@@ -5,8 +5,7 @@
     "express": "^4.12.3"
   },
   "engines": {
-    "node": ">=0.10.0",
-    "npm": "2.9.1"
+    "node": ">=0.10.0"
   },
   "description": "Highlights by HTML5 UP\r html5up.net | @n33co\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
   "main": "app.js",
