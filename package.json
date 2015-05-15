@@ -1,18 +1,11 @@
 {
-  "name": "Krestrel",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node server.js"
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "0.0.1",
+  "engines": {
+    "npm": "2.1.x"
   },
   "dependencies": {
-    "connect": "^3.3.5",
-    "express": "^4.12.3",
-    "serve-static": "^1.9.2"
-  }, 
-   "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
+    "express": "^4.12.3"
   }
 }
-
