@@ -1,11 +1,8 @@
-var path = require('path');
 var express = require('express');
-
 var app = express();
+var path = require('path');
 
-var staticPath = path.resolve(__dirname);
-app.use(express.static(staticPath));
+app.use(express.static(path.join(__dirname, 'public'))); 
 
-app.listen(3000, function() {
-  console.log('listening');
-});
+app.listen(3000);
+console.log('Listening on port 80');

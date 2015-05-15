@@ -1,11 +1,14 @@
 {
-  "name": "myapp",
-  "description": "a really cool app",
-  "version": "0.0.1",
-  "engines": {
-    "npm": "2.1.x"
+ 
+  "name": "death-clock",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.12.3"
+  }, 
+   "engines": {
+    "node": ">=0.10.0"
   }
 }
