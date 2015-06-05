@@ -1176,7 +1176,7 @@
 	}
 
 		#footer .container {
-			padding: 5em 2.5em 3em 2.5em;
+			/*padding: 5em 2.5em 3em 2.5em;*/
 			background: rgba(255, 255, 255, 0.95);
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
